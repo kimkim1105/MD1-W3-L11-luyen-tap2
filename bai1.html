@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let num = +prompt("Nhập vào số số hạng cần in: ");
+    function fibonacci(){
+    let a = 1, b=0, temp;
+        while (num>0){
+            temp = a;
+            a =a +b;
+            b = temp;
+            num --;
+            document.write(b + " ")
+        }
+    }
+    fibonacci(num);
+
+</script>

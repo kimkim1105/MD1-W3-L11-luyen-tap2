@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let num = +prompt("Nhập vào số muốn tính giai thừa");
+    function factory(a){
+        if (a===1)
+            return 1;
+        return a * factory(a -1);
+    }
+    document.write(factory(num));
+</script>

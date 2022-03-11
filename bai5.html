@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let t = +prompt("Nhập số tháng: ");
+    let n = +prompt("Nhập tỷ lệ lãi suất %/tháng");
+    let m = +prompt("Nhập số tiền gốc");
+    let s = m;
+    for (let i=1; i<=t;i++){
+        s = s + s*n/100;
+    }
+    document.write("Lãi suất là: "+eval("s-m"))
+</script>
